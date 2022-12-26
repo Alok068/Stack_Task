@@ -1,0 +1,41 @@
+.header_back{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #2d77c2;   
+}
+
+.header_back .logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo h6{
+    font-family: 'Raleway';
+    font-size: 1.2rem;
+    margin: 0px 20px 0px 10px;
+color: white;
+cursor: pointer;
+}
+
+.search_bar{
+    display: flex;
+    align-items: center;
+}
+.search_bar .search{
+    left: -35px;
+    position: relative;
+    font-size: 20px;
+}
+
+.search_bar input{
+    padding: 10px 10px 10px 40px;
+    width: 32vw;
+    border: 0px solid white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
